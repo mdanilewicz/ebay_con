@@ -4,6 +4,7 @@ namespace util
 {
 	int strlen(char *str);
 	void strcpy(char *destination, char *source);
+	char * strcom(char *a, char *b);
 }
 
 

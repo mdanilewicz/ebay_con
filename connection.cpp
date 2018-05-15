@@ -100,7 +100,7 @@ char * Connection::getRequest(void)
 bool Connection::sendRequest(char * path)
 {
 	//char request = [] ="GET" + path;
-//	send(mainSocket, request, strlen(request) + 1, 0);
+	send(mainSocket, request, strlen(request) + 1, 0);
 	return true;
 }
 

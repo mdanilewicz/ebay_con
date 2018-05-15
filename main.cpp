@@ -22,7 +22,10 @@ int main(void)
 	
 	//if (test.init())
 		//cout << "test is connected";
-	
+	char a[] = "test ";
+	char b[] = "strcom";
+	cout << util::strcom(a, b);
+
 	system("pause");
 	WSADATA wsaData;
 	char recBuffer[8192];// = { 0 };

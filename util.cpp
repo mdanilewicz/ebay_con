@@ -15,3 +15,10 @@
 			destination[i] = source[i];
 	}
 
+	char * util::strcom(char * a, char * b)
+	{
+		char *com = new char(util::strlen(a) + util::strlen(b) + 1);
+		util::strcpy(com, a);
+		util::strcpy(com+strlen(a), b);
+		return com;
+	}
